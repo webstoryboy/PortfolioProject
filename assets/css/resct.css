@@ -269,3 +269,9 @@ select {
 .pt90  {padding-top: 90px;}
 .pt100 {padding-top: 100px;}
 .pt200 {padding-top: 200px;}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 100px 0;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Line Portfolio</title>
+
+    <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/resct.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/account.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <h1>Port Project<em>developer</em></h1>
+        <nav>
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">interview</a></li>
+                <li><a href="#">us</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- //header -->
+
+    <main id="contents">
+        <section id="account">
+            <h2 class="blind">로그인 영역입니다.</h2>
+
+            <div class="inner">
+                <div class="login__wrap">
+                    <h3>로그인</h3>
+                    <form name="login" action="#" method="POST">
+                        <fieldset>
+                            <legend class="blind">로그인 입력폼</legend>
+                            <div class="member-box">
+                                <div>
+                                    <label for="youEmail">이메일</label>
+                                    <input type="email" name="youEmail" id="youEmail" class="input_write" placeholder="Sample@naver.com" autocmplete="off" autofocus required>
+                                </div>
+                                <div>
+                                    <label for="youPass">비밀번호</label>
+                                    <input type="password" name="youPass" id="youPass" class="input_write" maxlength="20" placeholder="비밀번호를 적어주세요!" autocmplete="off" required>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <button id="loginBtn" class="btn_submit" type="submit">로그인</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <div class="join__wrap">
+                    <h3>회원가입</h3>
+                    <!-- 
+                    1. 본인인증
+                    2. 약관동의
+                    3. 정보입력
+                    4. 가입완료
+                     -->
+                </div>
+
+                <hr>
+
+                <div class="logout__wrap">
+                    <h3>로그아웃</h3>
+                </div>
+
+                <hr>
+
+                <div class="pwLook__wrap">
+                    <h3>비밀번호 찾기</h3>
+                </div>
+
+                <hr>
+
+                <div class="idLook__wrap">
+                    <h3>아이디 찾기</h3>
+                </div>
+            </div>
+            
+        </section>
+        <!-- //section1 -->
+    </main>
+
+</body>
+
+</html>
